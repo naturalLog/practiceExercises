@@ -108,3 +108,8 @@ C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToF
 C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\System.Net.Http.Formatting.xml
 C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\System.Web.Http.xml
 C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\EntityFramework.dll
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.dll.config
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\EntityFramework.xml
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Web\bin\EntityFramework.SqlServer.xml

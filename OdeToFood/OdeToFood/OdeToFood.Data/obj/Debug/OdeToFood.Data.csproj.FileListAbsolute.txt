@@ -4,3 +4,9 @@ C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToF
 C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
 C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
 C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll.config
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.dll
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.xml
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H008388\Documents\Projects\practiceExercises\OdeToFood\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CopyComplete
