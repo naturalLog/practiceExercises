@@ -15,9 +15,6 @@ namespace OdeToFood.Web.Controllers
         {
             this.db = db;
         }
-
-        public IRestaurantData Db { get; }
-
         // GET: Restaurants
         [HttpGet]
         public ActionResult Index()
@@ -25,18 +22,18 @@ namespace OdeToFood.Web.Controllers
             var model = db.GetAll();
             return View(model);
         }
+
         [HttpGet]
         public ActionResult Details(int id)
         {
             var model = db.Get(id);
-            if (model == null)
+            if(model == null)
             {
                 return View("NotFound");
             }
             return View(model);
         }
-        
-        //this is the GET HTTP request. it gets the form to create a new restaurant, the form itself when you hit create is a different request
+
         [HttpGet]
         public ActionResult Create()
         {
@@ -46,14 +43,14 @@ namespace OdeToFood.Web.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Restaurant restaurant)
-        { 
+        {
+
             if (ModelState.IsValid)
             {
                 db.Add(restaurant);
                 return RedirectToAction("Details", new { id = restaurant.Id });
             }
             return View();
-            
         }
 
         [HttpGet]
@@ -62,20 +59,40 @@ namespace OdeToFood.Web.Controllers
             var model = db.Get(id);
             if (model == null)
             {
-                return HttpNotFound();
+                return View("NotFound");
+            }
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Restaurant restaurant)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Update(restaurant);
+                TempData["Message"] = "You have saved the restaurant!";
+                return RedirectToAction("Details", new { id = restaurant.Id });
+            }
+            return View(restaurant);
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            var model = db.Get(id);
+            if (model == null)
+            {
+                return View("NotFound");
             }
             return View(model);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Restaurant restaurant)
+        public ActionResult Delete(int id, FormCollection form)
         {
-            if (ModelState.IsValid)
-            {
-                return RedirectToAction("Details", new { id = restaurant.Id } );
-            }
-            return View(restaurant);
+            db.Delete(id);
+            return RedirectToAction("Index");
         }
     }
 }
